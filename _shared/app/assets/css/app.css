@@ -1,0 +1,46 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body,
+html {
+  padding: 0;
+  margin: 0; }
+
+.side-panel-header {
+  height: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.task-list {
+  padding: 21px 25px; }
+
+.task {
+  height: 44px;
+  margin-bottom: 11px;
+  background: #fff;
+  border-left: solid 5px #3a7bdb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px;
+  cursor: move;
+  /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -webkit-grab; }
+
+.time-label {
+  font-weight: bold; }

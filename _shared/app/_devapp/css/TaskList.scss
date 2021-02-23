@@ -1,0 +1,21 @@
+.task-list {
+  padding: 21px 25px;
+}
+.task {
+  height: 44px;
+  margin-bottom: 11px;
+  background: #fff;
+  border-left: solid 5px #3a7bdb;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: center;
+  padding: 12px;
+  cursor: move; /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+.time-label {
+  font-weight: bold;
+}
